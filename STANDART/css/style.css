@@ -1,0 +1,50 @@
+/* Содержимое страницы */
+Body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* Заголовок страницы*/
+h1 {
+    position: relative;
+    margin-left: 1%;
+    color: blue;
+}
+
+/* Блок формы */
+form[name="createOrder"] {
+    position: relative;
+    width: 300px;
+    margin-left: 1%;
+}
+
+/* Стиль полей ввода данных */
+form div input[type="text"] {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 69%;
+    border: 1px solid blue;
+
+}
+
+/* Стиль заголовка для полей ввода данных */
+form div span {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+
+}
+
+/* Стиль кнопки отправки данных */
+form div button[type="submit"] {
+    position: relative;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    width: 100%;
+    background: blue;
+    color: white;
+}

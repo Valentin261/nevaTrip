@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>booking tickets</title>
+</head>
+<body>
+<h1>Ticket order form</h1>
+<form name="createOrder" action="createOrder.php" method="post">
+    <div><span>ID</span><input type="text" placeholder="ID события" name="event_id"></div>
+    <div><span>Adult price</span><input type="text" placeholder="Цена взрослого билета"
+                                        name="ticket_adult_price"></div>
+    <div><span>Adult quantity</span><input type="text" placeholder="Количество взрослых билетов"
+                                           name="ticket_adult_quantity"></div>
+    <div><span>Kid price</span><input type="text" placeholder="Цена детского билета"
+                                      name="ticket_kid_price"></div>
+    <div><span>Kid quantity</span><input type="text" placeholder="Количество детских билетов"
+                                         name="ticket_kid_quantity"></div>
+    <div>
+        <button type="submit" title="Добавить заказ">Add order</button>
+    </div>
+    <div> <br>* Все введенные данные передаются системе. <br>При заполнении всех полей и корректном вводе происходит добавление в базу данных.</div>
+</form>
+
+</body>
+</html>

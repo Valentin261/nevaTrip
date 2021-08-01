@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>
+    <title>booking tickets</title>
+</head>
+<body>
+<h1>Ticket order form API</h1>
+
+
+<form>
+    <div>
+        <input type="button" onclick="SendDataOrder()" value="Send for >> api.site.com/book"></input>
+    </div>
+    <div>*Data is generated in a predetermined manner<br><br>Данные получаем с удаленного сервера, и в зависимости от ответа, в случае положительного ответа делаем запись в бд, в случае ошиби, повторяем запрос<br><br></div>
+</form>
+<div id="infoReloadInfo"></div>
+<div id="infoLoad"></div>
+
+
+
+</body>
+</html>
